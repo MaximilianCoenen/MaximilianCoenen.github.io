@@ -1,0 +1,751 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
+<style>
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #222;
+        background: #fafafa;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    h1 {
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 3rem;
+        color: #444;
+    }
+
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+    .contact {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+    }
+
+    .section-divider {
+        width: 60%;
+        margin: 1rem auto 2rem;
+        border: none;
+        border-top: 1px solid #ddd;
+    }
+
+    .row {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+        align-items: center;
+    }
+
+    .left {
+        flex: 0 0 30%;
+        text-align: center;
+    }
+
+    .right {
+        flex: 1;
+    }
+
+    img, video {
+        max-width: 100%;
+        border-radius: 6px;
+    }
+
+    .card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            flex-direction: column;
+        }
+
+        .left {
+            flex: none;
+        }
+    }
+	html {
+		scroll-behavior: smooth;
+	}
+
+	.navbar {
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+
+		background: rgba(250, 250, 250, 0.95);
+		backdrop-filter: blur(6px);
+
+		padding: 0.75rem 1rem;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.navbar a {
+		font-size: 0.95rem;
+		font-weight: 500;
+		color: #444;
+	}
+
+	.navbar a:hover {
+		color: #0066cc;
+		text-decoration: none;
+	}
+	
+	
+	h1, h2, h3 {
+		scroll-margin-top: 80px;
+	}
+	.column {
+		text-align: left;
+		margin-left: auto;
+	}
+	.column.left {
+		text-align: center;
+		flex: 0 0 40%;
+	}
+
+	.column.right {
+		flex: 1;
+	}
+	
+	.column.right p {
+		margin: 0.35rem 0;
+	}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <a href="#top">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+</nav>
+
+<main class="container">
+
+	<h1 id="top"> Max Coenen </h1>
+	<p style="text-align:center">
+		<i class="fa fa-map-marker"></i> Institute of Building Materials Science, Appelstr. 9a, 30165 Hannover, Germany <br>
+		<span>&#9993;</span> <a href= "mailto:m.coenen@baustoff.uni-hannover.de">m.coenen@baustoff.uni-hannover.de</a> <br>
+		<span>&#x1F393;</span> [<a href="https://scholar.google.com/citations?user=dAKKe-MAAAAJ&hl=de">Google Scholar</a>]
+		<i class='fab fa-researchgate'></i> [<a href="https://www.researchgate.net/profile/Max-Coenen-3">Researchgate</a>]
+		<i class='fab fa-linkedin'></i>[<a href="https://de.linkedin.com/in/max-coenen-03a67a1a6?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>]
+	</p>
+
+	
+	
+	<!--=========================================================================================================================================================== -->
+	<h2 id="projects"> Projects </h2>
+	<hr class="section-divider">
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/CVL.png" />
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Concrete Vision Lab (2022 - ongoing)</strong><br>			
+			[<a href="https://www.baustoff.uni-hannover.de/de/forschung/concrete-vision-lab">Website</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/Proj_RTTS.jpg" style="width:40%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>RTTS (2023 - ongoing)</strong><br>			
+			Resource-efficient tunnel support system <br>
+			[<a href="https://www.baustoff.uni-hannover.de/de/forschung/forschungsprojekte/forschungsprojekte-detailansicht/projects/rtts-ressourceneffizientes-tunneltragsystem">Website</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/Proj_Recycontrol.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>ReCyControl (2021 - 2024)</strong><br>			
+			Self-learning control methods for an automatic production of robust and eco-friendly concretes <br>
+			[<a href="https://www.recycontrol.uni-hannover.de/en/">Website</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/Proj_OCF.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Open Channel Concrete Flow (2021 - ongoing)</strong><br>			
+			[<a href="https://www.baustoff.uni-hannover.de/de/forschung/forschungsprojekte/forschungsprojekte-detailansicht/projects/open-channel-flow-blockage-ocf-blockage">Website</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<video controls width="50%" autoplay muted loop playsinline preload="metadata">
+			<source src="resources/images/2021_Slump.mp4" type="video/mp4">			
+			</video>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Vision-based Characterisation of Fresh Concrete Properties (2020 - 2022)</strong><br>			
+			[<a href="https://www.baustoff.uni-hannover.de/de/forschung/forschungsprojekte/forschungsprojekte-detailansicht/projects/charakterisierung-der-frischbetoneigenschaften-mittels-optischer-beruehrungsfreier-messmethoden">Website</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/Proj_Icsens.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>i.c.sens (2016 - 2020)</strong><br>			
+			Integrity and Collaboration in Dynamic Sensor Networks <br>
+			[<a href="https://www.icsens.uni-hannover.de/en/">Website</a>]
+			[<a href="https://www.researchgate.net/project/icsens-2">Researchgate</a>]
+        </div>
+    </div>	
+	
+	
+	<!--=========================================================================================================================================================== -->
+	<h2 id="publications"> Publications </h2>	
+	<hr class="section-divider"> 
+	
+	<h3> 2024 </h3>
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2023_DeepConcreteFlow.png" style="width:60%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			
+			<strong>Deep Concrete Flow: Deep Learning based Monitoring of Fresh Concrete Properties from Open-Channel Flow using Spatio-Temporal Flow Fields (2024)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Christian Vogel, Tobias Schack, and Michael Haist<br>
+			In: Construction and Building Materials 411<br>
+			[<a href="https://doi.org/10.1016/j.conbuildmat.2023.134809">Paper</a>]
+			[<a href="https://www.researchgate.net/profile/Max-Coenen-3/publication/377057914_Deep_Concrete_Flow_Deep_learning_based_characterisation_of_fresh_concrete_properties_from_open-channel_flow_using_spatio-temporal_flow_fields/links/6593df973c472d2e8eaae35c/Deep-Concrete-Flow-Deep-learning-based-characterisation-of-fresh-concrete-properties-from-open-channel-flow-using-spatio-temporal-flow-fields.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InB1YmxpY2F0aW9uIn19">pdf</a>]
+			[<a href="https://www.sciencedirect.com/sdfe/arp/cite?pii=S0950061823045300&format=text%2Fx-bibtex&withabstract=true">Bibtex</a>]		
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2024_ComputerVisionAsKey.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Computer Vision as Key to an Automated Concrete Production Control (2024)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Max Meyer, Dries Beyer, Christian Heipke, and Michael Haist<br>	
+			In: Proceedings of the International Symposium on Automation and Robotics in Construction (ISARC) <br>
+			[<a href="https://doi.org/10.22260/ISARC2024/0005">Paper</a>]
+			[<a href="https://www.iaarc.org/publications/fulltext/004_ISARC_2024_Paper_154.pdf">pdf</a>]
+			[<a href="https://www.iaarc.org/publications/2024_proceedings_of_the_41st_isarc_lille_france/computer_vision_as_key_to_an_automated_concrete_production_control.bib">Bibtex</a>]			
+        </div>
+    </div>	
+	
+
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2024_SlumpSemanticSeg.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Image-based Quality Control of Fresh Concrete based on Semantic Segmentation Algorithms (2024)</strong><br>
+			Tobias Schack, <span style="text-decoration:underline">Max Coenen</span>, and Michael Haist<br>	
+			In: Civil Engineering Design 6(3), pp. 96-105 <br>
+			[<a href="https://doi.org/10.1002/cend.202410011">Paper</a>]
+			[<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cend.202410011">pdf</a>]
+			[<a href="https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fcend.202410011">Bibtex</a>]			
+        </div>
+    </div>	
+
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2024_PFG.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Fresh Concrete Properties fromStereoscopic Image Sequences (2024)</strong><br>
+			Max Meyer, Amadeus Langer, Max Mehltretter, Dries Beyer, <span style="text-decoration:underline">Max Coenen</span>, Tobias Schack, Michael Haist, and Christian Heipke<br>	
+			In: PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science 92, pp. 517-529 <br>
+			[<a href="https://doi.org/10.1007/s41064-024-00303-0">Paper</a>]
+			[<a href="https://link.springer.com/content/pdf/10.1007/s41064-024-00303-0.pdf">pdf</a>]
+			[<a href="https://link.springer.com/article/10.1007/s41064-024-00303-0#citeas">Bibtex</a>]			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2024_ISPRS.PNG" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Image-based Deep Learning for the time-dependent prediction of fresh concrete properties (2024)</strong><br>
+			Max Meyer, Amadeus Langer, Max Mehltretter, Dries Beyer, <span style="text-decoration:underline">Max Coenen</span>, Tobias Schack, Michael Haist, and Christian Heipke<br>	
+			In: ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume X-2-2024 <br>
+			[<a href="https://doi.org/10.5194/isprs-annals-X-2-2024-145-2024">Paper</a>]
+			[<a href="https://isprs-annals.copernicus.org/articles/X-2-2024/145/2024/isprs-annals-X-2-2024-145-2024.pdf">pdf</a>]
+			[<a href="https://isprs-annals.copernicus.org/articles/X-2-2024/145/2024/isprs-annals-X-2-2024-145-2024.bib">Bibtex</a>]			
+        </div>
+    </div>	
+	
+
+	<h3> 2023 </h3>
+    <div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<video controls autoplay muted loop playsinline preload="metadata">
+			<source src="resources/images/2023_DeepGranulometry.mp4" type="video/mp4">			
+			</video>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Deep Granulometry: Image based Estimation of Concrete Aggregate Size Distributions using Deep Learning (2023)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Dries Beyer, Anne Ponick, Christian Heipke, and Michael Haist<br>	
+			To be published<br>			
+			[<a href="https://doi.org/10.25835/61y9peiq">Dataset</a>]
+        </div>
+    </div>	
+	
+
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<video controls width="50%" autoplay muted loop playsinline preload="metadata">
+			<source src="resources/images/2023_FlowTransformer.mp4" type="video/mp4">			
+			</video>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Concrete Flow Transformer: Predicting Fresh Concrete Properties from Concrete Flow using Vision Transformers (2023)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Christian Vogel, Tobias Schack, and Michael Haist<br>	
+			In: Proceedings of the 2023 European Conference on Computing in Construction (EC3)<br>		
+			[<a href="https://ec-3.org/publications/conference/paper/?id=EC32023_222">Paper</a>]
+			[<a href="https://ec-3.org/publications/conferences/EC32023/papers/EC32023_222.pdf">pdf</a>]
+			[<a href=https://ec-3.org/publications/conferences/references/bibtex_EC32023_222.bib">Bibtex</a>]			
+        </div>
+    </div>		
+
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2023_GranulometryTransformer.png" style="width:50%"/>			
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Granulometry Transformer: Image-based Granulometry of Concrete Aggregate for an automated Concrete Production Control (2023)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Dries Beyer and Michael Haist<br>	
+			In: Proceedings of the 2023 European Conference on Computing in Construction (EC3)<br>			
+			[<a href="https://ec-3.org/publications/conference/paper/?id=EC32023_223">Paper</a>]
+			[<a href="https://ec-3.org/publications/conferences/EC32023/papers/EC32023_223.pdf">pdf</a>]
+			[<a href=https://ec-3.org/publications/conferences/references/bibtex_EC32023_223.bib">Bibtex</a>]
+			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2023_Concrete4.0.png" style="width:80%"/>			
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Concrete 4.0 - Sustainable Concrete Construction with digital Quality Control (2023)</strong><br>
+			Michael Haist, Tobias Schack, <span style="text-decoration:underline">Max Coenen</span>, Christian Vogel, Dries Beyer and Christian Heipke<br>	
+			In: Proceedings of the International Conference on Building Materials (ibausil), ce/papers, 6 (6)<br>			
+			[<a href="https://doi.org/10.1002/cepa.2965">Paper</a>]
+			[<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cepa.2965">pdf</a>]
+			[<a href="https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fcepa.2965">Bibtex</a>]
+			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2023_Ibausil_imagebasedFlow.png" style="width:70%"/>			
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Image-based Analysis of fresh Concrete Flow - Determining the Correlation between Flow Behavior and rheological Properties (2023)</strong><br>
+			Christian Vogel, <span style="text-decoration:underline">Max Coenen</span>, Tobias Schack, Dries Beyer and Michael Haist<br>	
+			In: Proceedings of the International Conference on Building Materials (ibausil), ce/papers, 6 (6)<br>			
+			[<a href="https://doi.org/10.1002/cepa.2916">Paper</a>]
+			[<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cepa.2916">pdf</a>]
+			[<a href="https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fcepa.2916">Bibtex</a>]
+			
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2023_Ibausil_Thixotropy.PNG" style="width:70%"/>			
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Mechanisms of Thixotropy in Cement Suspensions Considering Influences from Shear History and Hydration (2023)</strong><br>
+			Julian Link, Bastian Strybny, Thibaut Divoux, Thomas Sowoidnich, <span style="text-decoration:underline">Max Coenen</span>, Stefan Gstöhl, Christian M. Schlepütz, Marcus Zuber, Steffen Hellmann, Christiane Rößler, Johannes Lützenkirchen, Frank Heberling, Sébastien Manneville, Thorsten Schäfer, Horst-Michael Ludwig, and Michael Haist <br>
+			In: Proceedings of the International Conference on Building Materials (ibausil), ce/papers, 6 (6)<br>			
+			[<a href="https://doi.org/10.1002/cepa.2810">Paper</a>]
+			[<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cepa.2810">pdf</a>]
+			[<a href="https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fcepa.2810">Bibtex</a>]
+			
+        </div>
+    </div>	
+	
+	
+	<h3> 2022 </h3>
+    <div class="row card">
+        <div class="column left" >
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2022_ConsInstancy.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>ConsInstancy: Learning Instance Representations for Semi-Supervised Panoptic Segmentation of Concrete Aggregate Particles (2022)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Tobias Schack, Dries Beyer, Christian Heipke, and Michael Haist<br>	
+			In: Machine Vision and Applications 33 (57)<br>			
+			[<a href="https://doi.org/10.1007/s00138-022-01313-x">Paper</a>]
+			[<a href="https://link.springer.com/content/pdf/10.1007/s00138-022-01313-x.pdf">pdf</a>]
+			[<a href="https://citation-needed.springer.com/v2/references/10.1007/s00138-022-01313-x?format=refman&flavour=citation">Bibtex</a>]
+        </div>
+    </div>	
+	
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2022_ISPRS.png" style="width:90%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>Learning to Sieve: Prediction of Grading Curves from Images of Concrete Aggregate (2022)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Dries Beyer, Christian Heipke, and Michael Haist<br>	
+			In: ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume V-2-2022<br>			
+			[<a href="https://doi.org/10.5194/isprs-annals-V-2-2022-227-2022">Paper</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2022/227/2022/isprs-annals-V-2-2022-227-2022.pdf">pdf</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2022/227/2022/isprs-annals-V-2-2022-227-2022.bib">Bibtex</a>]
+			[<a href="https://doi.org/10.25835/0027789">Dataset</a>]
+        </div>
+    </div>
+	
+
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2022_Digitization.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Digitization of the Concrete Production Chain Using Computer Vision and Artificial Intelligence (2022)</strong><br>
+			Michael Haist, Christian Heipke, Dries Beyer, <span style="text-decoration:underline">Max Coenen</span>, Tobias Schack, Christian Vogel, Anne Ponick, Amadeus Langer<br>	
+			In: Proceedings of the 6th fib Congress 2022, Oslo, Norway<br>			
+			[<a href="https://www.researchgate.net/publication/365185962_DIGITIZATION_OF_THE_CONCRETE_PRODUCTION_CHAIN_USING_COMPUTER_VISION_AND_ARTIFICIAL_INTELLIGENCE">Paper</a>]
+			[<a href="https://www.researchgate.net/profile/Max-Coenen-3/publication/365185962_DIGITIZATION_OF_THE_CONCRETE_PRODUCTION_CHAIN_USING_COMPUTER_VISION_AND_ARTIFICIAL_INTELLIGENCE/links/6369402737878b3e878dc758/DIGITIZATION-OF-THE-CONCRETE-PRODUCTION-CHAIN-USING-COMPUTER-VISION-AND-ARTIFICIAL-INTELLIGENCE.pdf">pdf</a>]
+        </div>
+    </div>
+	
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2022_Rheology.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Image-based Deep Learning for Rheology Determination of Bingham Fluids (2022)</strong><br>
+			Anne Ponick*, Dries Beyer, <span style="text-decoration:underline">Max Coenen</span>, Michael Haist, and Christian Heipke<br>	
+			In: International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLIII-B2-2022<br>			
+			[<a href="https://doi.org/10.5194/isprs-archives-XLIII-B2-2022-711-2022">Paper</a>]
+			[<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2022/711/2022/isprs-archives-XLIII-B2-2022-711-2022.pdf">pdf</a>]
+			[<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2022/711/2022/isprs-archives-XLIII-B2-2022-711-2022.bib">Bibtex</a>]
+        </div>
+    </div>
+	
+	
+	<h3> 2021 </h3>
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2021_SemiSupervised.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Semi-Supervised Segmentation of Concrete Aggregate using Consensus Regularisation and Prior Guidance (2021)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Tobias Schack, Dries Beyer, Christian Heipke, and Michael Haist<br>	
+			In: ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume V-2-2021<br>			
+			[<a href="https://doi.org/10.5194/isprs-annals-V-2-2021-83-2021">Paper</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2021/83/2021/isprs-annals-V-2-2021-83-2021.pdf">pdf</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2021/83/2021/isprs-annals-V-2-2021-83-2021.bib">Bibtex</a>]
+			[<a href="https://doi.org/10.25835/0027789">Dataset</a>]
+        </div>
+    </div>
+
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<video controls width="80%" autoplay muted loop playsinline preload="metadata">
+			<source src="resources/images/2021_ISPRS_video.mp4" type="video/mp4">			
+			</video>
+			
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Pose Estimation and 3D Reconstruction of Vehicles from Stereo-Images using a Subcategory-Aware Shape Prior (2021)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span> and Franz Rottensteiner<br>	
+			In: ISPRS Journal of Photogrammetry and Remote Sensing (181)<br>			
+			[<a href="https://doi.org/10.1016/j.isprsjprs.2021.07.006">Paper</a>]
+			[<a href="https://arxiv.org/pdf/2107.10898.pdf">pdf</a>]
+			[<a href="https://www.sciencedirect.com/sdfe/arp/cite?pii=S0924271621001830&format=text%2Fx-bibtex&withabstract=true">Bibtex</a>]
+        </div>
+    </div>	
+	
+	
+	<h3> 2020 </h3>
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2021_PoseEstimation.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Probabilistic Pose Estimation and 3D Reconstruction of Vehicles from Stereo Images (2020)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span> <br>	
+			 Dissertation, Hannover 2020<br>			
+			[<a href="https://dgk.badw.de/fileadmin/user_upload/Files/DGK/docs/c-857.pdf">pdf</a>]
+        </div>
+    </div>
+	
+	
+	<h3> 2019 </h3>	
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2019_ICCVW.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Probabilistic Vehicle Reconstruction Using a Multi-Task CNN (2019)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span> and Franz Rottensteiner <br>	
+			In: IEEE International Conference on Computer Vision Workshops (ICCVW)<br>			
+			[<a href="https://doi.org/10.1109/ICCVW.2019.00110">Paper</a>]
+			[<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022056">pdf</a>]
+        </div>
+    </div>
+	
+
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<!--<img src="resources/images/2019_ISPRS.png" style="width:90%"/>-->
+			<video controls width="80%" autoplay muted loop playsinline preload="metadata">
+			<source src="resources/images/2019_ISPRS_Vid.mp4" type="video/mp4">			
+			</video>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>  Precise Vehicle Reconstruction for Autonomous Driving Applications (2019)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Franz Rottensteiner, and Christian Heipke <br>	
+			In:  ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol. IV-2/W5<br>			
+			[<a href="https://doi.org/10.5194/isprs-annals-IV-2-W5-21-2019">Paper</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W5/21/2019/isprs-annals-IV-2-W5-21-2019.pdf">pdf</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2-W5/21/2019/isprs-annals-IV-2-W5-21-2019.bib">Bibtex</a>]
+        </div>
+    </div>
+	
+	
+	<h3> 2018 </h3>
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2019_icsens.png" style="width:70%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>  Integrity and Collaboration in Dynamic Sensor Networks (2018)</strong><br>
+			Steffen Schön, Claus Brenner, Hamza Alkhatib, <span style="text-decoration:underline">Max Coenen</span>, et al. <br>	
+			In: Sensors 18(7)<br>			
+			[<a href="https://doi.org/10.3390/s18072400">Paper</a>]
+			[<a href="https://www.mdpi.com/1424-8220/18/7/2400/pdf?version=1532411976">pdf</a>]
+        </div>
+    </div>
+	
+
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2018_ISPRS.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>  Recovering the 3D Pose and Shape of Vehicles from Stereo Images (2018)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Franz Rottensteiner, and Christian Heipke <br>	
+			In:  ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol. IV-2/W4<br>			
+			[<a href="https://doi.org/10.5194/isprs-annals-IV-2-73-2018">Paper</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2/73/2018/isprs-annals-IV-2-73-2018.pdf">pdf</a>]
+			[<a href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-2/73/2018/isprs-annals-IV-2-73-2018.bib">Bibtex</a>]
+        </div>
+    </div>
+	
+	<h3> 2017 </h3>
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2017_ISPRS_Journal.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong>  Contextual segment-based Classification of airborne Laser Scanner Data (2017)</strong><br>
+			George Vosselman, <span style="text-decoration:underline">Max Coenen</span>, and Franz Rottensteiner <br>	
+			In:  ISPRS Journal of Photogrammetry and Remote Sensing 128<br>			
+			[<a href="https://doi.org/10.1016/j.isprsjprs.2017.03.010">Paper</a>]
+			[<a href="https://www.researchgate.net/profile/George-Vosselman/publication/316490001_Contextual_segment-based_classification_of_airborne_laser_scanner_data/links/59d331404585150177f928ff/Contextual-segment-based-classification-of-airborne-laser-scanner-data.pdf">pdf</a>]
+			[<a href="https://www.sciencedirect.com/sdfe/arp/cite?pii=S0924271616306207&format=text%2Fx-bibtex&withabstract=true">Bibtex</a>]
+        </div>
+    </div>
+	
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2017_PFG.png" style="width:85%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Classification of Stereo Images from Mobile Mapping Data Using Conditional Random Fields (2017)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Franz Rottensteiner, and Christian Heipke <br>	
+			In:  PFG Journal of Photogrammetry, Remote Sensing and Geoinformation Science 85(1)<br>			
+			[<a href="https://doi.org/10.1007/s41064-017-0004-5">Paper</a>]
+			[<a href="https://link.springer.com/content/pdf/10.1007/s41064-017-0004-5.pdf">pdf</a>]
+			[<a href="https://citation-needed.springer.com/v2/references/10.1007/s41064-017-0004-5?format=refman&flavour=citation">Bibtex</a>]
+        </div>
+    </div>
+	
+	
+	<div class="row card">
+        <div class="column left">
+            <!--<h2>Headline</h2> -->
+			<img src="resources/images/2017_ISPRS.png" style="width:80%"/>
+        </div>
+        <div class="column right">
+            <!--<h2>Headline</h2> -->
+            <!-- <p>test</p> -->
+			<strong> Detection and 3D Modelling of Vehicles from mobile Mapping Stereo Images (2017)</strong><br>
+			<span style="text-decoration:underline">Max Coenen*</span>, Franz Rottensteiner, and Christian Heipke <br>	
+			In:   International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences XLII-1/W1<br>			
+			[<a href="https://doi.org/10.5194/isprs-archives-XLII-1-W1-505-2017">Paper</a>]
+			[<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-1-W1/505/2017/isprs-archives-XLII-1-W1-505-2017.pdf">pdf</a>]
+			[<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-1-W1/505/2017/isprs-archives-XLII-1-W1-505-2017.bib">Bibtex</a>]
+        </div>
+    </div>
+ </main>
+</body>
+
+</html>
